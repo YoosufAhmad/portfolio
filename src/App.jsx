@@ -28,6 +28,7 @@ export default function App() {
               <li>
                 <a
                   href="https://drive.google.com/file/d/13-ZPiZCTqEo4Jb1_susv1rt-xzvNyfhj/view?usp=sharing"
+                  target="_blank"
                   className="text-1xl px-4 py-2 bg-gradient-to-r from-yellow-700 to-amber-950 text-white rounded-md md:hover:bg-amber-900"
                 >
                   Resume
@@ -67,6 +68,7 @@ export default function App() {
                   </div>
                   <a
                     href="https://coffee-news-nc.netlify.app"
+                    target="_blank"
                     class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
                   >
                     Coffee News (Front-End)
@@ -83,12 +85,14 @@ export default function App() {
                   </p>
                   <a
                     href="https://coffee-news-nc.netlify.app"
+                    target="_blank"
                     className="block text-1xl text-center mt-16 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
                   >
                     Live Demo
                   </a>
                   <a
                     href="https://github.com/YoosufAhmad/nc-news"
+                    target="_blank"
                     className="block text-1xl text-center my-2 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
                   >
                     Code
@@ -112,28 +116,31 @@ export default function App() {
                   </div>
                   <a
                     href="https://coffeenews.onrender.com/api/"
+                    target="_blank"
                     class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
                   >
                     Coffee News (Back-End)
                   </a>
                   <p class="mt-2 text-slate-700">
-                    Created
-                    following TDD via unit and integration testing. Implemented CRUD
-                    operations and RESTful API principles. Key features include: View all articles
-                    or a single article, delete or create an
-                    article, post comment, and like an article.
+                    Created following TDD via unit and integration testing.
+                    Implemented CRUD operations and RESTful API principles. Key
+                    features include: View all articles or a single article,
+                    delete or create an article, post comment, and like an
+                    article.
                   </p>
                   <p className="pt-4 text-amber-950 font-medium">
                     PostgreSQL - Express.js - JavaScript
                   </p>
                   <a
                     href="https://coffeenews.onrender.com/api/"
+                    target="_blank"
                     className="block text-1xl text-center mt-16 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
                   >
                     Live Demo
                   </a>
                   <a
                     href="https://github.com/YoosufAhmad/be-news-project"
+                    target="_blank"
                     className="block text-1xl text-center my-2 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
                   >
                     Code
@@ -236,6 +243,7 @@ export default function App() {
               </a>
               <a
                 href="http://www.linkedin.com/in/yoosuf-ahmad"
+                target="_blank"
                 className="group"
               >
                 <SiLinkedin className="mx-auto group-hover:text-[#0A66C2]" />
@@ -243,7 +251,11 @@ export default function App() {
                   Linkedin
                 </p>
               </a>
-              <a href="https://github.com/YoosufAhmad" className="group">
+              <a
+                href="https://github.com/YoosufAhmad"
+                target="_blank"
+                className="group"
+              >
                 <SiGithub className="mx-auto" />
                 <p className="text-sm text-center font-medium text-white group-hover:text-black">
                   Github
