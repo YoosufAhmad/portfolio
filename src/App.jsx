@@ -22,7 +22,7 @@ export default function App() {
     <div>
       <main className="px-5 sm:px-10">
         <section className="min-h-screen">
-          <nav className="mb-12 flex flex-wrap items-center justify-between mx-auto p-4">
+          <nav className="mb-12 flex flex-wrap items-center justify-between mx-auto sm:p-4 py-4 px-0">
             <h1 className="text-xl">Yoosuf Ahmad Portfolio</h1>
             <ul className="flex items-center">
               <li>
