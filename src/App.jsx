@@ -39,7 +39,7 @@ export default function App() {
             <h2 className="text-5xl py-2 text-amber-950 font-medium md:text-7xl lg:text-8xl">
               Yoosuf Ahmad
             </h2>
-            <h3 className="text-2xl py-2">Front-End Developer</h3>
+            <h3 className="text-2xl py-2">Software Developer</h3>
             <p className="text-md py-5 leading-8 max-w-3xl mx-auto">
               Welcome to my little corner of the Internet. Here, I share and
               showcase my tinkering on the web. I am passionate about intuitive
