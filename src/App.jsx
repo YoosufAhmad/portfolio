@@ -20,7 +20,7 @@ import {
 export default function App() {
   return (
     <div>
-      <main className="px-10">
+      <main className="px-5 sm:px-10">
         <section className="min-h-screen">
           <nav className="mb-12 flex flex-wrap items-center justify-between mx-auto p-4">
             <h1 className="text-xl">Yoosuf Ahmad Portfolio</h1>
@@ -29,7 +29,7 @@ export default function App() {
                 <a
                   href="https://drive.google.com/file/d/13-ZPiZCTqEo4Jb1_susv1rt-xzvNyfhj/view?usp=sharing"
                   target="_blank"
-                  className="text-1xl px-4 py-2 bg-gradient-to-r from-yellow-700 to-amber-950 text-white rounded-md md:hover:bg-amber-900"
+                  className="text-1xl px-4 py-2 bg-gradient-to-r from-yellow-700 to-amber-950 text-white rounded-md md:hover:bg-amber-900 invisible sm:visible"
                 >
                   Resume
                 </a>
