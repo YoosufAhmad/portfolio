@@ -1,6 +1,7 @@
 import React from "react";
 import projectpic1 from "./images/projectpic1.jpg";
 import projectpic2 from "./images/projectpic2.jpg";
+import resume from "./assets/resume.pdf";
 import {
   SiHtml5,
   SiCss3,
@@ -27,7 +28,7 @@ export default function App() {
             <ul className="flex items-center">
               <li>
                 <a
-                  href="https://drive.google.com/file/d/13-ZPiZCTqEo4Jb1_susv1rt-xzvNyfhj/view?usp=sharing"
+                  href={resume}
                   target="_blank"
                   className="text-1xl px-4 py-2 bg-gradient-to-r from-yellow-700 to-amber-950 text-white rounded-md md:hover:bg-amber-900 invisible sm:visible"
                 >
