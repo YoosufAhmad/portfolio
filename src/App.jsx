@@ -257,7 +257,7 @@ export default function App() {
                 target="_blank"
                 className="group"
               >
-                <SiGithub className="mx-auto" />
+                <SiGithub className="mx-auto group-hover:text-black"/>
                 <p className="text-sm text-center font-medium text-white group-hover:text-black">
                   Github
                 </p>
