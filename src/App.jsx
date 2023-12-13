@@ -236,7 +236,11 @@ export default function App() {
               Say Hello!
             </p>
             <div className="uppercase flex justify-center text-5xl mt-10 gap-16 text-gray-600">
-              <a href="mailto:websmithcreations@gmail.com" target="_blank" className="group">
+              <a
+                href="mailto:websmithcreations@gmail.com"
+                target="_blank"
+                className="group"
+              >
                 <SiGmail className="mx-auto group-hover:text-[#EA4335]" />
                 <p className="text-sm text-center font-medium text-white group-hover:text-black">
                   Gmail
@@ -257,7 +261,7 @@ export default function App() {
                 target="_blank"
                 className="group"
               >
-                <SiGithub className="mx-auto group-hover:text-black"/>
+                <SiGithub className="mx-auto group-hover:text-black" />
                 <p className="text-sm text-center font-medium text-white group-hover:text-black">
                   Github
                 </p>
