@@ -2,21 +2,9 @@ import React from "react";
 import projectpic1 from "./images/projectpic1.jpg";
 import projectpic2 from "./images/projectpic2.jpg";
 import resume from "./assets/resume.pdf";
-import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
-  SiReact,
-  SiTailwindcss,
-  SiGithub,
-  SiSupabase,
-  SiFigma,
-  SiPostgresql,
-  SiNodedotjs,
-  SiGmail,
-  SiLinkedin,
-  SiFlutter,
-} from "react-icons/si";
+import Skills from "./components/skills";
+import Socials from "./components/socials";
+import Projects from "./components/projects";
 
 export default function App() {
   return (
@@ -53,7 +41,7 @@ export default function App() {
             </h3>
           </div>
 
-          <div className="space-y-6 pb-10">
+          {/* <div className="space-y-6 pb-10">
             <div class="max-w-sm sm:max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl xl:max-w-4xl">
               <div class="md:flex relative">
                 <div class="md:shrink-0 overflow-hidden">
@@ -149,129 +137,11 @@ export default function App() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+          <Projects />
         </section>
-        <section>
-          <div className="m-4">
-            <h3 className="text-3xl text-center py-2 text-amber-950 font-medium mt-4">
-              Skills
-            </h3>
-            <div className="uppercase flex flex-wrap justify-center gap-16 py-10 text-5xl">
-              <figure className="group">
-                <SiHtml5 className="mx-auto group-hover:text-[#E34F26]" />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Html5
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiCss3 className="mx-auto hover:text-[#1572B6]" />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Css3
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiJavascript className="mx-auto hover:text-[#F7DF1E]" />
-                <figcaption className="text-sm font-medium text-white group-hover:text-black">
-                  JavaScript
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiReact className="mx-auto hover:text-[#61DAFB]" />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  React
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiSupabase className="mx-auto hover:text-[#3FCF8E]" />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Supabase
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiPostgresql className="mx-auto hover:text-[#4169E1]" />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Psql
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiGithub className="mx-auto " />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Github
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiFlutter className="mx-auto hover:text-[#02569B]" />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Flutter
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiFigma className="mx-auto hover:text-[#F24E1E]" />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Figma
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiNodedotjs className="mx-auto hover:text-[#339933]" />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Node.js
-                </figcaption>
-              </figure>
-              <figure className="group">
-                <SiTailwindcss className="mx-auto hover:text-[#06B6D4]" />
-                <figcaption className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Tailwind
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div className="m-4">
-            <h3 className="text-3xl text-center py-2 text-amber-950 font-medium mt-4">
-              Contact
-            </h3>
-            <p className="text-lg text-center py-2 font-medium mt-4">
-              Say Hello!
-            </p>
-            <div className="uppercase flex justify-center text-5xl mt-10 gap-16 text-gray-600">
-              <a
-                href="mailto:websmithcreations@gmail.com"
-                target="_blank"
-                className="group"
-              >
-                <SiGmail className="mx-auto group-hover:text-[#EA4335]" />
-                <p className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Gmail
-                </p>
-              </a>
-              <a
-                href="http://www.linkedin.com/in/yoosuf-ahmad"
-                target="_blank"
-                className="group"
-              >
-                <SiLinkedin className="mx-auto group-hover:text-[#0A66C2]" />
-                <p className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Linkedin
-                </p>
-              </a>
-              <a
-                href="https://github.com/YoosufAhmad"
-                target="_blank"
-                className="group"
-              >
-                <SiGithub className="mx-auto group-hover:text-black" />
-                <p className="text-sm text-center font-medium text-white group-hover:text-black">
-                  Github
-                </p>
-              </a>
-            </div>
-            <p className="text-lg text-center py-2 font-medium mt-4">
-              Thank you for visiting my website😁
-            </p>
-          </div>
-        </section>
+        <Skills />
+        <Socials />
       </main>
     </div>
   );
