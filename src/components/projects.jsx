@@ -1,5 +1,6 @@
 import projectpic1 from "../images/projectpic1.jpg";
 import projectpic2 from "../images/projectpic2.jpg";
+import projectpic5 from "../images/projectpic5.jpg";
 const Projects = () => {
   return (
     <div className="space-y-6 pb-10">
@@ -96,38 +97,38 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      
+
       <div class="max-w-sm sm:max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl xl:max-w-4xl">
         <div class="md:flex relative">
           <div class="md:shrink-0 overflow-hidden">
             <img
-              src={projectpic2}
+              src={projectpic5}
               alt="coffee and newspaper picture by celine ylmz"
               className="object-cover md:max-w-xs hover:scale-110 transition duration-500 cursor-pointer"
             />
           </div>
           <div class="p-8">
             <div class="uppercase tracking-wide text-sm text-amber-800 font-semibold">
-              Full-Stack Project
+              Game Dev Project
             </div>
             <a
               href="https://coffeenews.onrender.com/api/"
               target="_blank"
               class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
             >
-              Coffee News (Back-End)
+              Roblox Online FPS (Shooteroo YA)
             </a>
             <p class="mt-2 text-slate-700">
-              Created following TDD via unit and integration testing.
-              Implemented CRUD operations and RESTful API principles. Key
-              features include: View all articles or a single article, delete or
-              create an article, post comment, and like an article.
+              An online First Person Shooter game created in Roblox Studio.
+              Features include: leaderboard, lobby, datasaves of achievements
+              and stats for each player retrieved with each login, real-time
+              responses triggered by player actions.
             </p>
             <p className="pt-4 text-amber-950 font-medium">
-              PostgreSQL - Express.js - JavaScript
+              Lua - Object-Oriented Programming
             </p>
             <a
-              href="https://coffeenews.onrender.com/api/"
+              href="https://www.roblox.com/games/15570973153/Tutorial-Lab-Game#!/about"
               target="_blank"
               className="block text-1xl text-center mt-16 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
             >
