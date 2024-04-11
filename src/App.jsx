@@ -1,6 +1,4 @@
 import React from "react";
-import projectpic1 from "./images/projectpic1.jpg";
-import projectpic2 from "./images/projectpic2.jpg";
 import resume from "./assets/resume.pdf";
 import Skills from "./components/skills";
 import Socials from "./components/socials";

@@ -1,6 +1,8 @@
 import projectpic1 from "../images/projectpic1.jpg";
 import projectpic2 from "../images/projectpic2.jpg";
 import projectpic5 from "../images/projectpic5.jpg";
+import robloxcode from "../assets/robloxcodescreenshots.pdf"
+
 const Projects = () => {
   return (
     <div className="space-y-6 pb-10">
@@ -112,7 +114,7 @@ const Projects = () => {
               Game Dev Project
             </div>
             <a
-              href="https://coffeenews.onrender.com/api/"
+              href="https://www.roblox.com/games/15570973153/Tutorial-Lab-Game#!/about"
               target="_blank"
               class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
             >
@@ -135,7 +137,7 @@ const Projects = () => {
               Live Demo
             </a>
             <a
-              href="https://github.com/YoosufAhmad/be-news-project"
+              href={robloxcode}
               target="_blank"
               className="block text-1xl text-center my-2 px-4 py-2 bg-amber-950 text-white rounded-md md:hover:bg-amber-900"
             >
